@@ -1,0 +1,62 @@
+# Gradle files
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Local configuration file (SDK path, etc)
+local.properties
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Android Studio
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Kotlin
+*.kotlin_module
+
+# Android
+gen/
+bin/
+tmp/
+proguard/
+lint.xml
+
+# Build folders
+app/build/
+**/build/
+
+# NDK
+obj/
+
+# Misc
+*.log
+*.tmp
+*.temp
+
+# Firebase
+google-services.json
