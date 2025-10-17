@@ -22,11 +22,11 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.contadorcompose.ui.theme.ContadorComposeTheme
-import androidx.compose.ui.text.style.TextAlign
 import kotlinx.coroutines.delay
 
 class MainActivity : ComponentActivity() {
@@ -34,7 +34,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ContadorComposeTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -202,10 +201,6 @@ fun ContadorApp() {
                 }
             }
             Spacer(modifier = Modifier.height(24.dp))
-        }
-                )
-            }
-            Spacer(modifier = Modifier.height(16.dp))
         }
 
         // Botões para incrementar e decrementar
